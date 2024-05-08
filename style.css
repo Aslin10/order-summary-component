@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image:url(pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size:contain;
+  
+  font-family: "Red Hat Display", sans-serif;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.Order{
+    background-color:hsl(225, 100%, 98%);
+    width:300px;
+    height:500px;
+    margin: 1rem;
+    
+    border-radius: 5px;
+   
+    text-align: center;
+}
+.img img{
+    max-width:100%;
+    border-radius: 5px;
+    
+}
+.summary h1{
+    text-align: center;
+    margin:0.50rem;
+    padding:0.50rem;
+    font-size:1rem;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+    ;
+}
+   .summary p{
+    font-size: 0.80rem;
+    color:hsl(224, 23%, 55%);
+    text-align: center;
+    line-height:20px;
+    padding: 8px;
+   }
+   .plan{
+    width:90%;
+    
+display: flex;
+align-items: center;
+justify-content: space-between;
+ background-color: hsl(225, 100%, 94%);
+    margin:1rem;
+    padding:1rem;
+    
+   }
+   .plan img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-start;
+
+    margin:0;
+   }
+   .plan article{
+    font-size: 0.70rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 600;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top:5px;
+
+   
+   }
+   .plan a{
+    font-size:11px;
+    margin:10px;
+    display: flex;
+    justify-content:flex-end;
+   }
+   
+   .pay button.one{
+    margin: 1rem;
+    padding:0.70rem;
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    color: white;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow:30px;
+    font-weight: 600;
+}
+.pay button.two{
+    border-style: none;
+    color:hsl(224, 23%, 55%) ;
+    cursor: pointer;
+    background-color: none;
+    
+    font-weight: 600;
+}
+button.two:hover{
+    color:hsl(223, 47%, 23%) ;
+    transform: scale(1.2);
+}
+button.one:hover{
+    transform: scale(1.2);
+}
+a:hover{
+    transform: scale(1.0);
+}
